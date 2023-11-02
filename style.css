@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+.container {
+    width: 90%;
+    max-width: 34em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.btn-light-pink {
+    background-color: #ffc0cb; 
+    color: #fff; 
+    border-color: #ffc0cb;
+}
+
+.btn-light-pink:hover {
+    background-color: #ff91a4; 
+    border-color: #ff91a4; 
+    color: #fff; 
+}
+
+.btn-light-blue {
+    background-color: #ADD8E6; 
+    color: #ffffff; 
+    border-color: #ADD8E6; 
+}
+
+.btn-light-blue:hover {
+    background-color: #87CEEB; 
+    border-color: #87CEEB; 
+    color: #ffffff; 
+}
+
+.btn-light-red {
+    background-color: lightsalmon; 
+    color: #ffffff; 
+    border-color: lightsalmon; 
+}
+
+.btn-light-red:hover {
+    background-color: salmon; 
+    border-color: salmon; 
+    color: #ffffff; 
+}
+
+.form-check-input[type='checkbox']:checked {
+    background-color: lightgreen;
+    border-color: lightgreen;
+}
+
+body {
+    font-family: 'Fira Code', monospace;
+    background-color: #f4cbcb;
+}
